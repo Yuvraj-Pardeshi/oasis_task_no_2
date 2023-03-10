@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background: #0A2647;
+    color: white;
+    /* margin: 0 50px; */
+}
+.container{
+    font-family: 'Tilt Neon', cursive;
+}
+.header-section{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-section{
+    gap: 100px;
+    margin-top: 50px;
+}
+@media(max-width:740px){
+    .hero-section{
+        flex-direction: column;
+    }
+}
+.img-area{
+    /* width: 50%; */
+    max-width: 600px;
+}
+.img-area img{
+    height: 360px;
+    width: 300px;
+    border: 5px solid rgb(105, 103, 255);
+    padding: 12px;
+}
+.quotes-area{
+    margin-top: 100px;
+}
+.quotes-area p{
+    max-width: 600px;
+    font-size: 30px ;
+    position: relative;  
+    /* background-color: yellow;  */
+    padding: 0 20px;
+    quotes:  "“" "„";
+}
+
+.quotes-area p::before{
+    content: open-quote;
+    position: absolute;
+    font-size: 4em;
+    top: -70px;
+    left: 0; 
+    color: green;
+    font-family: 'Georgia','san-serif';
+}
+.quotes-area p::after{
+    content: close-quote;
+    position: absolute;
+    font-size: 4em;
+    bottom: -40px;
+    right: 40;
+    color: green;
+    font-family: 'Georgia','san-serif';
+}
+.text-animation{
+    font-size: 40px;
+    text-align: center;
+   
+}
+.color{
+    color: yellow;
+}
+/* Journey of elon */
+.Journey-of-elon{
+    margin-top: 10%;
+}
+.journey-title{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 0;
+    background-color: #2C74B3;
+}
+.journey{
+    flex-wrap: wrap;
+    margin: 50px 20px;
+    gap: 80px;
+}
+.journey-text h3{
+    font-size: 28px;
+}
+.journey-text p{
+    font-size: 20px;
+    margin-top: 5px;
+    line-height: 2;
+}
+.journey-text{
+    max-width: 50%;
+}
+.journey-img img{
+    width: 70%;
+}
+.journey-edu-img img{
+    width: 400px;
+}
+/* footer */
+a{
+    text-decoration: none;
+}
+.footer-section{
+    height: 40px;
+    font-size: 2rem;
+    padding: 10px 12px;
+    text-align: center;
+    color: #0A2647;
+    background-color: #b9cde4;
+}
+
+    
